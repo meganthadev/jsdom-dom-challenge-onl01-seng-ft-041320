@@ -21,3 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
      counter.innerHTML++
    });
    
+   minus.addEventListener("click", function() {
+     counter.innerHTML
+   })
+   
