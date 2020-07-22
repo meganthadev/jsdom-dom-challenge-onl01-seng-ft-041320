@@ -22,6 +22,9 @@ document.addEventListener("DOMContentLoaded", function() {
    });
    
    minus.addEventListener("click", function() {
-     counter.innerHTML
+     counter.innerHTML--
+   });
+   
+   
    })
    
