@@ -44,4 +44,5 @@ document.addEventListener("DOMContentLoaded", function() {
    pause.addEventListener("click", function() {
      if (timeRunning === true){
        timeRunning = false;
-       
+        pause.innerHTML = "resume";
+        
