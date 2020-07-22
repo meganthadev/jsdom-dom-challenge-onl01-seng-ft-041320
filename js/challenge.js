@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
    });
    
     like.addEventListener("click", function() {
+      const likesList = document.createElement("LI");
       
    })
    
