@@ -17,4 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
    };
 
- 
+  plus.addEventListener("click", function() {
+     counter.innerHTML++
+   });
+   
