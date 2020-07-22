@@ -37,5 +37,5 @@ document.addEventListener("DOMContentLoaded", function() {
      const newComment = document.createElement("p");
      let commentInfo = document.createTextNode(`${commentForm.value}`);
      newComment.appendChild(commentInfo);
-     
+     comments.appendChild(newComment);
    
