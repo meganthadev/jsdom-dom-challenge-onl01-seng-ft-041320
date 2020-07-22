@@ -39,4 +39,4 @@ document.addEventListener("DOMContentLoaded", function() {
      newComment.appendChild(commentInfo);
      comments.appendChild(newComment);
      commentForm.value ='';
-   
+   });
