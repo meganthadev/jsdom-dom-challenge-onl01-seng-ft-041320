@@ -3,4 +3,4 @@ document.addEventListener("DOMContentLoaded", function() {
  const minus = document.getElementById('-');
  const plus = document.getElementById('+');
  const heart = document.getElementById('<3');
- const pause = document.getElementById('')
+ const pause = document.getElementById('pause')
