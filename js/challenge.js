@@ -12,4 +12,5 @@ document.addEventListener("DOMContentLoaded", function() {
  let timeRunning = true;
  
  function plusCounter() {
+   if (timeRunning === true){
  
