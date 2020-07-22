@@ -8,5 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
  const submit = document.getElementById('submit');
  const commentForm = document.getElementsByTagName('input')[0];
  const comments = document.getElementById('list');
- let speedCounter = setInterval(plusCounter, 1000)
+ let timeCounter = setInterval(plusCounter, 1000)
+ 
  
