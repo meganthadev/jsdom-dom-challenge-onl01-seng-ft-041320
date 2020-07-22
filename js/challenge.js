@@ -46,4 +46,9 @@ document.addEventListener("DOMContentLoaded", function() {
        timeRunning = false;
         pause.innerHTML = "resume";
         like.disabled = true;
-        
+        minus.disabled = true;
+        plus.disabled = true;
+        submit.disabled = true;
+        commentForm.disabled = true;
+    }
+    
