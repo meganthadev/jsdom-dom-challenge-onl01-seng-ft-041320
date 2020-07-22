@@ -51,5 +51,12 @@ document.addEventListener("DOMContentLoaded", function() {
         submit.disabled = true;
         commentForm.disabled = true;
     }
-    else {
-    
+  else {
+    timeRunning = true;
+    pause.innerHTML = "pause";
+    like.disabled = false;
+    minus.disabled = false;
+    plus.disabled = false;
+    submit.disabled = false;
+    commentForm.disabled = false;
+  };
