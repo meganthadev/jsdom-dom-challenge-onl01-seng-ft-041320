@@ -25,23 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
      counter.innerHTML--
    });
    
-    like.addEventListener("click", function() {
-      const likesList = document.createElement("LI");
-       let likeTracker = document.createTextNode(`${counter.innerHTML} has been liked 1 times.`)
-       likesList.appendChild(likeTracker);
-       likes.appendChild(likesList);
-   })
-   
-   submit.addEventListener("click", function() {
-     event.preventDefault();
-     const newComment = document.createElement("p");
-     let commentInfo = document.createTextNode(`${commentForm.value}`);
-     newComment.appendChild(commentInfo);
-     comments.appendChild(newComment);
-     commentForm.value ='';
-   });
-   
-   pause.addEventListener("click", function() {
+    pause.addEventListener("click", function() {
      if (timeRunning === true){
        timeRunning = false;
         pause.innerHTML = "resume";
@@ -61,5 +45,23 @@ document.addEventListener("DOMContentLoaded", function() {
     commentForm.disabled = false;
   };
    });
+   
+    like.addEventListener("click", function() {
+      const likesList = document.createElement("LI");
+       let likeTracker = document.createTextNode(`${counter.innerHTML} has been liked 1 times.`)
+       likesList.appendChild(likeTracker);
+       likes.appendChild(likesList);
+   })
+   
+   submit.addEventListener("click", function() {
+     event.preventDefault();
+     const newComment = document.createElement("p");
+     let commentInfo = document.createTextNode(`${commentForm.value}`);
+     newComment.appendChild(commentInfo);
+     comments.appendChild(newComment);
+     commentForm.value ='';
+   });
+   
+
    
 });
