@@ -40,3 +40,5 @@ document.addEventListener("DOMContentLoaded", function() {
      comments.appendChild(newComment);
      commentForm.value ='';
    });
+   
+   
