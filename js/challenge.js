@@ -4,4 +4,4 @@ document.addEventListener("DOMContentLoaded", function() {
  const plus = document.getElementById('plus');
  const heart = document.getElementById('hear');
  const pause = document.getElementById('pause');
- const 
+ const likes = 
