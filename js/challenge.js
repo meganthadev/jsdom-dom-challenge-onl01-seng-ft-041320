@@ -42,4 +42,5 @@ document.addEventListener("DOMContentLoaded", function() {
    });
    
    pause.addEventListener("click", function() {
-     
+     if (timeRunning === true){
+       
