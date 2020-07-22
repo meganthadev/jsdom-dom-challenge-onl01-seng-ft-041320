@@ -51,4 +51,5 @@ document.addEventListener("DOMContentLoaded", function() {
         submit.disabled = true;
         commentForm.disabled = true;
     }
+    else {
     
