@@ -5,4 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
  const like = document.getElementById('heart');
  const pause = document.getElementById('pause');
  const likes = document.getElementsByClassName('likes')[0];
+ const submit = document.getElementById('submit');
+ 
  
