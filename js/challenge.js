@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
       const likesList = document.createElement("LI");
        let likeTracker = document.createTextNode(`${counter.innerHTML} has been liked 1 times.`)
        likesList.appendChild(likeTracker);
-       
+       likes.appendChild(likesList);
    })
+   
+   
    
