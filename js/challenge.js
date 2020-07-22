@@ -32,5 +32,5 @@ document.addEventListener("DOMContentLoaded", function() {
        likes.appendChild(likesList);
    })
    
-   
+   submit.addEventListener("click", function() {
    
