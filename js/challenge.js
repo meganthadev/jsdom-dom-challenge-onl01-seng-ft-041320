@@ -45,4 +45,5 @@ document.addEventListener("DOMContentLoaded", function() {
      if (timeRunning === true){
        timeRunning = false;
         pause.innerHTML = "resume";
+        like.disabled = true;
         
