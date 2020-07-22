@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
  let timeRunning = true;
  
  function plusCounter() {
-   if (timeRunning === true){
-     counter.innerHTML++
+     if (timeRunning === true){
+      counter.innerHTML++
     }
-};
-)};
+   };
+
  
