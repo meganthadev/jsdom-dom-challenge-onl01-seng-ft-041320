@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
      counter.innerHTML--
    });
    
-   
+    like.addEventListener("click", function() {
+      
    })
    
