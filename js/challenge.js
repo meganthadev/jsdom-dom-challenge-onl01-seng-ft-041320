@@ -13,4 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
  
  function plusCounter() {
    if (timeRunning === true){
+     counter.innerHTML++
+    }
+   };
  
