@@ -15,5 +15,5 @@ document.addEventListener("DOMContentLoaded", function() {
    if (timeRunning === true){
      counter.innerHTML++
     }
-   };
+};
  
