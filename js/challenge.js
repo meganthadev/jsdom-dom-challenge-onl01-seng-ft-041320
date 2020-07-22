@@ -7,5 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
  const likes = document.getElementsByClassName('likes')[0];
  const submit = document.getElementById('submit');
  const commentForm = document.getElementsByTagName('input')[0];
+ const comments = document.getElementById('list');
  
  
