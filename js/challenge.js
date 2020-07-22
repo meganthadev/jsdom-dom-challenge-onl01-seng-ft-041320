@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
  const pause = document.getElementById('pause');
  const likes = document.getElementsByClassName('likes')[0];
  const submit = document.getElementById('submit');
- const commentForm = document.getElementById('comment-form');
+ const commentForm = document.getElementById('comment-input')[0];
  
  
