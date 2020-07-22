@@ -34,5 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
    
    submit.addEventListener("click", function() {
      event.preventDefault();
+     const newComment = document.createElement("p");
      
    
