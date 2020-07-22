@@ -11,4 +11,5 @@ document.addEventListener("DOMContentLoaded", function() {
  let timeCounter = setInterval(plusCounter, 1000);
  let timeRunning = true;
  
+ function plusCounter() {
  
