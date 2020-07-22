@@ -4,4 +4,5 @@ document.addEventListener("DOMContentLoaded", function() {
  const plus = document.getElementById('plus');
  const like = document.getElementById('heart');
  const pause = document.getElementById('pause');
- const likes = document.getElementsByClassName('likes');
+ const likes = document.getElementsByClassName('likes')[0];
+ 
